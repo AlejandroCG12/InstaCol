@@ -19,6 +19,8 @@ public class MainPruebaBD {
 
         BaseDatos objBases = new BaseDatos();
         boolean conexion;
+        
+        
         String sql = "", ruta = "";
         conexion = objBases.crearConexion();
         if (conexion) {
